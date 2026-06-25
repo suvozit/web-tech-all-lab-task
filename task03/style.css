@@ -1,0 +1,53 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset {
+    border:2px solid #ccc;
+  width: 400px;         
+  max-width: 90%;       
+  padding: 20px;       
+  min-width: auto; 
+  border-radius:8px;  
+  
+  border-color:blueviolet;  
+}
+
+legend{
+    font-weight:bold;
+    padding: 0 10px;
+  color:white;
+   background-color:blueviolet;
+    border-radius:5px;  
+}
+#parent{
+    position:relative;
+    width:600px;
+    padding-bottom: 60px;
+}
+
+#Child1{ position:absolute;
+    left:100px;
+    background-color:rgb(123, 45, 162);
+    color:white;
+    border-radius:3px; 
+    padding:8px 26px 8px 26px;
+     margin-left: -20px;
+}
+
+#Child2{ position:absolute;
+    left:180px;
+    background-color:rgb(228, 225, 230));
+    color: black;
+     border-radius:3px;
+     padding:8px 26px 8px 26px; 
+     margin-left: 40px;
+
+}
+
+.Class1{
+    margin-left:30px;
+    display:flex;
+    flex-direction: column;
+    
+}
